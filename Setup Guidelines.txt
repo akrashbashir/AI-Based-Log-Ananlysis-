@@ -1,0 +1,12 @@
+1-----------Wazuh--------------------:
+		
+	i)Install wazuh manager in virtualbox  of my host machine and  start it by using  systemctl commands
+	ii)Access wasuh dashboard in host machine's browser
+        iii) Create and Install wazuh agents on different devices for log collection and mointering
+	iv) Config Logstash in wazuh manager's config file for logs forwarding to Elasticsearch
+2------------------------------------Elasticsearch,Kiban and Logstash----------------------------------------
+       i)Install Elasticsearch and Kibana on Googlecloud's Vm
+       ii)Integrate both of them for editing .yml files of both 
+       iii) Access Kibana Dashboard with Vm's public IP on port no 5601
+3----------------------------------------------AI Model------------------------------------------------------
+      Integrate Kibana Dashboard with Flask API
